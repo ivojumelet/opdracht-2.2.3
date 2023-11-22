@@ -1,0 +1,17 @@
+.moving-div {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    animation: moveRightLeft 15s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes moveRightLeft {
+    0%, 100% {
+        left: -50px;
+    }
+    50% {
+        left: 100%;
+    }
+}
